@@ -42,7 +42,7 @@ function draw() {
   drawSprites();
  
 }
-function MousekeyPressed(){
+function keyPressed(){
 	if(keyCode === UP_ARROW){
 		Matter.Body.applyForce(paperObject.body,paperObject.body.position,{x:30,y:-30})
 	}
